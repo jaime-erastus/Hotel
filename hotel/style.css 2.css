@@ -1,0 +1,35 @@
+.head{
+    image-orientation: flip;
+}
+
+body, html {
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family:'Times New Roman', Times, serif;
+    justify-content: center;
+
+}
+body h1{
+    justify-content: right;
+
+}
+
+.background {
+
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
